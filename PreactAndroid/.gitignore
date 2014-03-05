@@ -1,0 +1,17 @@
+# ADT
+.classpath
+.project
+.settings
+local.properties
+bin
+gen
+_layouts
+proguard.cfg
+
+# OSX
+.DS_Store
+
+# Maven
+target
+release.properties
+pom.xml.*

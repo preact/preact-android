@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PreactAndroidTest</string>
+    <string name="welcome">Welcome to the Preact Test App!</string>
+    <string name="register_string">User Registration Event</string>
+    <string name="upgrade_string">User Upgrade Event</string>
+    <string name="purchase_string">Item Purchase Event</string>
+    <string name="view_item_string">Item Viewed Event</string>
+    <string name="view_item_account_string">Item Viewed w/ Account Event</string>
+    <string name="view_item_links_string">Item Viewed w/ Links Event</string>
+
+</resources>
