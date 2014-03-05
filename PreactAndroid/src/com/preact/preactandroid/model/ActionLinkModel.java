@@ -1,11 +1,11 @@
 package com.preact.preactandroid.model;
 
 /**
- * The PersonModel class represents a person associated with an event
- * to be logged.
+ * The ActionLinkModel class represents a person associated with an event to be
+ * logged.
  */
 public class ActionLinkModel {
-	
+
 	private String name;
 	private String href;
 
@@ -17,6 +17,7 @@ public class ActionLinkModel {
 
 	/**
 	 * Constructor
+	 * 
 	 * @param name
 	 * @param href
 	 */
@@ -24,7 +25,7 @@ public class ActionLinkModel {
 		this.name = name;
 		this.href = href;
 	}
-	
+
 	/**
 	 * Getters and setters.
 	 */
@@ -43,7 +44,7 @@ public class ActionLinkModel {
 	public void setHref(String href) {
 		this.href = href;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "ActionLinkModel [name=" + name + ", href=" + href + "]";

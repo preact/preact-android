@@ -3,11 +3,11 @@ package com.preact.preactandroid.model;
 import java.util.Map;
 
 /**
- * The PersonModel class represents a person associated with an event
- * to be logged.
+ * The EventModel class represents a person associated with an event to be
+ * logged.
  */
 public class EventModel {
-	
+
 	private String source;
 	private String target_id;
 	private String name;
@@ -41,7 +41,7 @@ public class EventModel {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String getNote() {
 		return note;
 	}

@@ -1,11 +1,11 @@
 package com.preact.preactandroid.model;
 
 /**
- * The AccountModel class represents an account associated with an event 
- * to be logged.
+ * The AccountModel class represents an account associated with an event to be
+ * logged.
  */
 public class AccountModel {
-	
+
 	private String id;
 	private String name;
 
@@ -33,7 +33,7 @@ public class AccountModel {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "AccountModel [id=" + id + ", name=" + name + "]";
